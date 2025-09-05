@@ -1,0 +1,84 @@
+.category-exercises-page {
+    min-height: 80vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.category-exercises-page h1 {
+    font-size: 4rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    margin-left: 3vw;
+}
+
+.category-exercises-page h1 span {
+    font-weight: 600;
+}
+
+.exercises {
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    justify-content: space-evenly;
+    row-gap: 3vh;
+}
+
+.exercise {
+    display: flex;               /* Flex layout for left-right */
+    flex-direction: row;         /* Image left, content right */
+    align-items: center;         /* Vertically center text */
+    gap: 1.5rem;                 /* Space between image and text */
+    border: 1px solid #e0e0e0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 2vh;
+    border-radius: 0.6rem;
+    cursor: pointer;
+    background-color: #020e13de;
+    text-align: left;            /* Align text left */
+    transition: all 0.2s ease-in-out;
+}
+
+.exercise:hover {
+    transform: scale(1.05);
+}
+
+.exercise img {
+    width: 40%;                  /* Left portion */
+    max-height: 200px;           /* Adjust image height */
+    object-fit: cover;
+    border: 1px solid #e0e0e0;
+    border-radius: 0.6rem;
+    background: #fff;
+    display: block;
+}
+
+.exercise-content {
+    width: 60%;                  /* Right portion for text */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.exercise h3 {
+    margin: 0 0 10px 0;          /* Space below heading */
+    font-weight: 600;
+    color: rgb(229, 232, 235);
+    font-size: 1.1rem;
+}
+
+.exercise ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Tags aligned to left */
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.exercise ul li {
+    list-style: none;
+    border: 1px solid rgb(254, 191, 96);
+    color: rgb(254, 191, 96);
+    padding: 5px 10px;
+    font-size: 0.7rem;
+    border-radius: 2rem;
+}

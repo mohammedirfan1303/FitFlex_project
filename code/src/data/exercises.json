@@ -1,0 +1,93 @@
+[
+  {
+    "id": "0001",
+    "name": "Push-up",
+    "bodyPart": "chest",
+    "equipment": "body weight",
+    "target": "pectorals",
+    "gifUrl": "/images/pushup.jpeg"
+  },
+  {
+    "id": "0002",
+    "name": "Squat",
+    "bodyPart": "upper legs",
+    "equipment": "body weight",
+    "target": "quads",
+    "gifUrl": "/images/squat.jpeg"
+  },
+  {
+    "id": "0003",
+    "name": "Dumbbell Curl",
+    "bodyPart": "neck",
+    "equipment": "dumbbell",
+    "target": "biceps",
+    "gifUrl": "/images/shrugs.jpeg"
+  },
+  {
+    "id": "0004",
+    "name": "Bench Press",
+    "bodyPart": "chest",
+    "equipment": "barbell",
+    "target": "pectorals",
+    "gifUrl": "/images/benchpress.jpeg"
+  },
+  {
+    "id": "0005",
+    "name": "Deadlift",
+    "bodyPart": "back",
+    "equipment": "hammer",
+    "target": "erector spinae",
+    "gifUrl": "/images/deadlift.jpeg"
+  },
+  {
+    "id": "0006",
+    "name": "Shoulder Press",
+    "bodyPart": "shoulders",
+    "equipment": "dumbbell",
+    "target": "deltoids",
+    "gifUrl": "/images/shoulderpress.jpeg"
+  },
+  
+  {
+    "id": "0008",
+    "name": "Pull-up",
+    "bodyPart": "cardio",
+    "equipment": "cable",
+    "target": "lats",
+    "gifUrl": "/images/pullup.jpeg"
+  },
+  {
+    "id": "0009",
+    "name": "Plank",
+    "bodyPart": "waist",
+    "equipment": "body weight",
+    "target": "abs",
+    "gifUrl": "/images/plank.jpeg"
+  },
+  {
+    "id": "0010",
+    "name": "Leg Press",
+    "bodyPart": "upper legs",
+    "equipment": "roller",
+    "target": "quads",
+    "gifUrl": "/images/legpress.jpeg"
+  },
+  {
+    "id": "0011",
+    "name": "Face Pull",
+    "bodyPart": "back",
+    "equipment": "band",
+    "target": "quads",
+    "gifUrl": "/images/facepull.jpeg"
+  },
+  {
+    "id": "0012",
+    "name": "Lunges",
+    "bodyPart": "shoulders",
+    "equipment": "kettlebell",
+    "target": "quads",
+    "gifUrl": "/images/kettleball.jpeg"
+
+  }
+]
+
